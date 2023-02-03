@@ -1,0 +1,67 @@
+
+#welcome {
+    background: linear-gradient(rgba(13, 13, 13, 0.7), rgba(0, 0, 0, 0.7)), url(assets/img/kysc-commiteepic.jpg) fixed center center;
+    color: white;
+    background-size: cover;
+    padding: 4rem 0;
+    min-height: 100vh;
+  }
+  
+  #welcome h4 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-align: center;
+    margin: 1rem 0;
+    padding: 1rem 0;
+    font-weight: bold;
+    color: #18d26e;
+  }
+  
+  #welcome p {
+    font-size: 1.5rem;
+    padding: 0 5rem;
+  }
+  #welcome .info p {
+    color: #18d26e;
+    font-weight: bold;
+  }
+  
+  #welcome a {
+    color: #fff;
+  }
+  
+  #welcome a:hover {
+    color:#d31818
+  }
+  
+  #welcome h3 {
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+  }
+  
+  #welcome .counters span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    display: block;
+    color: white;
+  }
+  
+  #welcome .counters p {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    color: white;
+  }
+  
+  #welcome .icon {
+    width: 128px;
+    height: 128px;
+    color: #b8b8b8;
+    text-align: center;
+    transition: 0.3s;
+    font-size: 36px;
+  
+  }
