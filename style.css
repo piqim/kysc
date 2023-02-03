@@ -751,12 +751,12 @@ header.section-header.news {
 #portfolio .portfolio-wrap img {
     height: 100%;
     width: auto;
-    overflow: hidden;m
+    overflow: hidden;
 }
 
 #portfolio .portfolio-item {
   position: relative;
-  height: 360px;
+  height: 450px;
   overflow: hidden;
 }
 
@@ -825,7 +825,7 @@ header.section-header.news {
   background: #fff;
   text-align: center;
   padding: 30px;
-  height: 90px;
+  height: auto;
   border-radius: 0 0 3px 3px;
 }
 
@@ -961,6 +961,10 @@ width: 100%;
 
 #president-foreword #president-img {
   margin: 1rem 0;
+}
+
+#president-img img {
+  height: 400px;
 }
 
 #president-foreword .row {
