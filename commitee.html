@@ -11,6 +11,20 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
     rel="stylesheet">
 
+  <!-- Web Security -->
+  <!-- Redirect to HTTPS -->
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <!-- Prevent Cross-Site Scripting (XSS) -->
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+  <!-- Prevent browsers from interpreting files as a different MIME type -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <!-- Prevent site from being embedded in an iframe / prevent clickjack -->
+  <meta http-equiv="X-Frame-Options" content="DENY">
+  <!-- Prevents Cross-Site SCripting (XSS) and code injections -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline';">
+
+
+
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -57,14 +71,14 @@
 
   </header>
 
-   <!-- WELCOME SECTION -->
-   <section id="welcome" class="section-margin">
+  <!-- WELCOME SECTION -->
+  <section id="welcome" class="section-margin">
     <div class="container text-center">
       <h4 class="wow fadeInUp">Commitee Members</h4>
       <p class="wow fadeInUp">
         Meet our team of dedicated, smart and amazing people!
       </p>
-      </div>
+    </div>
     </div>
   </section>
 
@@ -76,7 +90,9 @@
         <h3>Commitee Members</h3>
         <p>Meet our line of established members and their positions.</p>
       </header>
-      
+
+      <!-- A LINK IS TO GO TO IG OR LINKEDIN PROFILE OF COMMITEE MEMBER -->
+
       <!-- PRES -->
       <div class="row commitee-cols h-100 d-flex align-tiems-center justify-content-center">
         <div class="col-md-3 wow fadeInUp">
@@ -95,7 +111,7 @@
       <!-- VICES -->
       <div class="row commitee-cols h-100 d-flex align-items-center justify-content-center">
 
-        <div class="col-md-3 wow fadeInUp">
+        <div class="col-md-3 wow fadeInLeft">
           <div class="commitee-col">
             <div class="img">
               <img src="assets/img/commiteeplaceholder.jpg" alt="" class="img-fluid">
@@ -106,7 +122,7 @@
             </p>
           </div>
         </div>
-        <div class="col-md-3 wow fadeInUp">
+        <div class="col-md-3 wow fadeInRight">
           <div class="commitee-col">
             <div class="img">
               <img src="assets/img/commiteeplaceholder.jpg" alt="" class="img-fluid">
@@ -120,9 +136,9 @@
 
       </div>
 
-      <!-- SEC and TRES -->      
+      <!-- SEC and TRES -->
       <div class="row commitee-cols h-100 d-flex align-items-center justify-content-center">
-        <div class="col-md-3 wow fadeInUp">
+        <div class="col-md-3 wow fadeInLeft">
           <div class="commitee-col">
             <div class="img">
               <img src="assets/img/commiteeplaceholder.jpg" alt="" class="img-fluid">
@@ -133,7 +149,7 @@
             </p>
           </div>
         </div>
-        <div class="col-md-3 wow fadeInUp">
+        <div class="col-md-3 wow fadeInRight">
           <div class="commitee-col">
             <div class="img">
               <img src="assets/img/commiteeplaceholder.jpg" alt="" class="img-fluid">
@@ -150,7 +166,7 @@
       <!-- ACAD EXCO WELFARE-->
       <div class="row commitee-cols h-100 d-flex align-items-center justify-content-center">
 
-        <div class="col-md-3 wow fadeInUp">
+        <div class="col-md-3 wow fadeInLeft">
           <div class="commitee-col">
             <div class="img">
               <img src="assets/img/commiteeplaceholder.jpg" alt="" class="img-fluid">
@@ -161,7 +177,7 @@
             </p>
           </div>
         </div>
-        <div class="col-md-3 wow fadeInUp">
+        <div class="col-md-3 wow fadeInLeft">
           <div class="commitee-col">
             <div class="img">
               <img src="assets/img/commiteeplaceholder.jpg" alt="" class="img-fluid">
@@ -172,35 +188,35 @@
             </p>
           </div>
         </div>
-        <div class="col-md-3 wow fadeInUp">
-            <div class="commitee-col">
-              <div class="img">
-                <img src="assets/img/commiteeplaceholder.jpg" alt="" class="img-fluid">
-              </div>
-              <h2 class="title"><a href="#">Student Welfare Exco 1</a></h2>
-              <p>
-                Someone
-              </p>
+        <div class="col-md-3 wow fadeInRight">
+          <div class="commitee-col">
+            <div class="img">
+              <img src="assets/img/commiteeplaceholder.jpg" alt="" class="img-fluid">
             </div>
+            <h2 class="title"><a href="#">Student Welfare Exco 1</a></h2>
+            <p>
+              Someone
+            </p>
           </div>
-          <div class="col-md-3 wow fadeInUp">
-            <div class="commitee-col">
-              <div class="img">
-                <img src="assets/img/commiteeplaceholder.jpg" alt="" class="img-fluid">
-              </div>
-              <h2 class="title"><a href="#">Student Welfare Exco 2</a></h2>
-              <p>
-                Someone
-              </p>
+        </div>
+        <div class="col-md-3 wow fadeInRight">
+          <div class="commitee-col">
+            <div class="img">
+              <img src="assets/img/commiteeplaceholder.jpg" alt="" class="img-fluid">
             </div>
+            <h2 class="title"><a href="#">Student Welfare Exco 2</a></h2>
+            <p>
+              Someone
+            </p>
           </div>
+        </div>
 
       </div>
 
       <!-- SPORT RELIGIOUS FOOD SPECIAL TASK -->
       <div class="row commitee-cols h-100 d-flex align-items-center justify-content-center">
 
-        <div class="col-md-3 wow fadeInUp">
+        <div class="col-md-3 wow fadeInLeft">
           <div class="commitee-col">
             <div class="img">
               <img src="assets/img/commiteeplaceholder.jpg" alt="" class="img-fluid">
@@ -211,7 +227,7 @@
             </p>
           </div>
         </div>
-        <div class="col-md-3 wow fadeInUp">
+        <div class="col-md-3 wow fadeInLeft">
           <div class="commitee-col">
             <div class="img">
               <img src="assets/img/commiteeplaceholder.jpg" alt="" class="img-fluid">
@@ -222,28 +238,28 @@
             </p>
           </div>
         </div>
-        <div class="col-md-3 wow fadeInUp">
-            <div class="commitee-col">
-              <div class="img">
-                <img src="assets/img/commiteeplaceholder.jpg" alt="" class="img-fluid">
-              </div>
-              <h2 class="title"><a href="#">Food Exco</a></h2>
-              <p>
-                Someone
-              </p>
+        <div class="col-md-3 wow fadeInRight">
+          <div class="commitee-col">
+            <div class="img">
+              <img src="assets/img/commiteeplaceholder.jpg" alt="" class="img-fluid">
             </div>
+            <h2 class="title"><a href="#">Food Exco</a></h2>
+            <p>
+              Someone
+            </p>
           </div>
-          <div class="col-md-3 wow fadeInUp">
-            <div class="commitee-col">
-              <div class="img">
-                <img src="assets/img/commiteeplaceholder.jpg" alt="" class="img-fluid">
-              </div>
-              <h2 class="title"><a href="#">Special Task Exco</a></h2>
-              <p>
-                Someone
-              </p>
+        </div>
+        <div class="col-md-3 wow fadeInRight">
+          <div class="commitee-col">
+            <div class="img">
+              <img src="assets/img/commiteeplaceholder.jpg" alt="" class="img-fluid">
             </div>
+            <h2 class="title"><a href="#">Special Task Exco</a></h2>
+            <p>
+              Someone
+            </p>
           </div>
+        </div>
 
       </div>
 
@@ -268,23 +284,40 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#header">Home</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#intro">Home</a></li>
               <li><i class="ion-ios-arrow-right"></i> <a href="http://sms.kyuem.edu.my/qs-kyuem/js/"
                   target="_blank">QIAB</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#" target="_blank">Events
-                  </a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#"
-                  target="_blank">Notices</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#"
-                  target="_blank">Progress</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="events.php" target="_blank">Events
+                </a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="notice.php" target="_blank">Notices</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="progress.php" target="_blank">Progress</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <a href="https://github.com/piqim/"><h4> © piqim 2023 </h4></a>
+            <a href="https://github.com/piqim/">
+              <h4> © piqim 2023 </h4>
+            </a>
+            <div class="footer-links">
+              <ul>
+                <li><i class="ion-log-in"></i> <a href="signin.php" target="_blank">Sign In</a></li>
+              </ul>
+            </div>
+
+            <!-- SOCIALS
+            <div class="social-links">
+              <ul style="list-style: none;">
+                <li><a href="signin.php"
+                  target="_blank"><i class="ion-log-in"></i> </a></li>
+                <li><a href="signin.php"
+                  target="_blank"><i class="ion-log-in"></i> </a></li>
+              </ul>
+            -->
+
           </div>
         </div>
       </div>
+    </div>
     </div>
   </footer>
 

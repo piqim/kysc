@@ -1,4 +1,4 @@
-;
+
 body {
   background: white;
   color: #666666;
@@ -468,7 +468,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 header.section-header.news {
   margin : 1rem 0;
-  padding-bottom: 5rem;
 }
 
 .section-header h3 {
